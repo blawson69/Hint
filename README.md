@@ -8,7 +8,7 @@ Place a token in the location where you want the ping to originate. This can be 
 ```
 !hint --msg|<message-text> --to|<character-names>
 ```
-The Hint script will ping the designated players, and will move the map to the location of the ping (as if long-clicking with the Shift key depressed) for each of them as well. Players who do not control a character designated in the command will see neither the ping nor the whispered message.
+The Hint script will ping the designated players, and will move the map to the location of the ping for each of them as well (as if long-clicking with the Shift key depressed). Players who do not control a character designated in the command will see neither the ping nor the whispered message.
 
 ### Message
 The text that follows `--msg|` can contain normal punctuation, but should avoid double dashes (--). This message will be whispered to each player that controls a character whose name you provide. Because of the intended use of the script, it will ignore characters who are controlled by all players.
