@@ -18,7 +18,7 @@ The GM will receive a whisper with the original message and a list of the proper
 ### Character Names
 The character names is a comma-delimited list of names that follows the `--to|` parameter. These names can be shortened versions of the character's full name as long as it contains part of the name. Capitalization does not matter. For instance, passing "bron" will match a character with the name 'Bronan the Destroyer'.
 
-Be careful that you don't pass a name fragment that will match for multiple characters, as the script will only take the first match and the second will be ignored. Sending the name "cor" will match both "Rancor the Pungent" and "Albacore the Tuna" but will only use one of them for the hint message/ping.
+Be careful that you don't pass a name fragment that will match for multiple characters, as the script will only take the first match and other matches will be ignored. Sending the name "cor" will match both "Rancor the Pungent" and "Albacore the Tuna" but will only use the first match for the hint message/ping.
 
 ### Re-Pinging
 The message received by the GM will contain a "Re-Ping" button that will allow you to re-send a ping to the players. This is helpful for when a player forgot the location of the ping or somehow missed seeing the original. You just know it'll happen. Note that the ping *will follow* the selected token, so if the token moves, so will the ping.
