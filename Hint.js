@@ -5,9 +5,8 @@ Sends a location ping and hint for Roll20 games
 On Github:	https://github.com/blawson69
 Contact me: https://app.roll20.net/users/1781274/ben-l
 
-Like this script?
-Venmo: https://venmo.com/theRealBenLawson
-Paypal: https://www.paypal.me/theRealBenLawson
+Like this script? Become a patron:
+    https://www.patreon.com/benscripts
 */
 
 var Hint = Hint || (function () {
@@ -28,14 +27,12 @@ var Hint = Hint || (function () {
     },
 
     checkInstall = function () {
-        //if (!_.has(state, 'Hint')) state['Hint'] = state['Hint'] || {};
         log('--> Hint v' + version + ' <-- Initialized');
 		if (debugMode) {
 			var d = new Date();
 			showDialog('Debug Mode', 'Hint v' + version + ' loaded at ' + d.toLocaleTimeString(), 'GM');
 		}
     },
-
 
     //----- INPUT HANDLER -----//
 
